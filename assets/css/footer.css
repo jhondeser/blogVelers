@@ -1,0 +1,19 @@
+/*----------inicio fotter*/
+.menu_redes{
+    display: flex;
+    height: 50px;
+    margin: 10px;
+    background: transparent;
+    align-items: center;
+    
+}
+.text_redes{
+    margin-left: 5%;
+}
+.logos_redes{
+    width: 40px;
+    height: 40px;
+    margin: 3%;
+    margin-left: 5%;
+    background: transparent;
+}

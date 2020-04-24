@@ -1,0 +1,47 @@
+.header{
+    display: flex;
+    align-items: center;
+    height: 30px;
+}
+.logo{
+    position: relative;
+    height: 40px;
+    width: 200px;
+    margin-left: 7%;
+}
+.location{
+    margin-left: 15%;
+}
+.menu{
+    display: flex;
+    margin-left: 10%;
+}
+.obMenu{
+    width: 60px;
+    margin: 0px 20px;
+    float: right;
+}
+.obMenu ul{
+    display: none;
+    position: absolute;
+    list-style: none;
+    text-align: right;
+    padding: 0px;
+    margin: 0px 0px 0px -45px;
+}
+.obMenu:hover ul, ul:hover{
+    display: block;
+}
+.obMenu li{
+    margin: 15px 0px;
+}
+.obMenu li a:hover {
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #050505;
+    opacity: 1;
+
+}
